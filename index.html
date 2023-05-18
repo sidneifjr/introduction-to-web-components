@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main id="app">
+      <hello-world name="Craig"></hello-world>
+
+      <todo-item>My Web Component!</todo-item>
+
+      <check-box>
+        This is my rifle, this is my gun!
+        <!-- O valor definido no slot será utilizado como correspondência ao name, presente no script. -->
+        <span slot="description">This is for fighting, this is for fun!</span>
+      </check-box>
+
+      <!-- Uma outra forma de se definir um web-component é usando o atributo "is" e passar o nome de nosso componente. -->
+      <ul is="expandable-list" data-expanded="false">
+        <li>First</li>
+        <li>Second</li>
+      </ul>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

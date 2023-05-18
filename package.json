@@ -1,0 +1,18 @@
+{
+  "name": "introduction-to-web-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "vite": "^4.3.7"
+  },
+  "dependencies": {
+    "pnpm": "^8.5.1"
+  }
+}
